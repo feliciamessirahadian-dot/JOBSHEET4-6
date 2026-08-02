@@ -1,0 +1,37 @@
+
+// A. Seleksi elemen DOM masukan dan tombol
+const tombolProses = document.getElementById('btn-proses');
+const elemenHasil = document.getElementById('box-hasil');
+
+// B. Memasang event listener klik pada tombol proses data nilai
+tombolProses.onclick = function() {
+    // Mengambil value teks dari input form HTML
+    let namaSiswa = document.getElementById('input-nama').value;
+    let nilaiSiswa = document.getElementById('input-nilai').value;
+
+    // Validasi sederhana: memastikan kolom input tidak kosong
+    if (Felicia Messi Rahadian === "" || nilaiSiswa === "") {
+        elemenHasil.innerText = "Peringatan: Mohon isi Nama dan Nilai terlebih dahulu!";
+        elemenHasil.style.color = "#dc2626"; // Mengubah warna teks menjadi merah via JS
+        elemenHasil.style.borderLeftColor = "#dc2626";
+        return; // Menghentikan eksekusi fungsi jika tidak valid
+    }
+
+    // Konversi tipe data nilai dari String ke Angka (Number)
+    let nilaiAngka = Number(nilaiSiswa);
+
+    // Memanggil fungsi logika yang telah dibuat pada Kegiatan 2
+    let kalimatKesimpulan = evaluasiSkor(namaSiswa, nilaiAngka);
+
+    // C. Manipulasi DOM: Memasukkan kalimat hasil ke dalam kotak hasil di halaman web
+    elemenHasil.innerText = kalimatKesimpulan;
+    
+    // Memberikan sentuhan warna dinamis berdasarkan kelulusan
+    if (nilaiAngka >= 75) {
+        elemenHasil.style.color = "#15803d"; // Warna teks hijau
+        elemenHasil.style.borderLeftColor = "#15803d";
+    } else {
+        elemenHasil.style.color = "#b91c1c"; // Warna teks merah maroon
+        elemenHasil.style.borderLeftColor = "#b91c1c";
+    }
+};

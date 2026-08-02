@@ -1,0 +1,47 @@
+<!-- Bagian Karya Portofolio Berbasis Grid Sistem -->
+<section id="portfolio-section" class="py-5 bg-light">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Karya Unggulan Portofolio</h2>
+            <p class="text-muted">Daftar project aplikasi web komersial yang telah berhasil dirilis ke publik</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-12 col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?w=500&auto=format&fit=crop&q=60" class="card-img-top" alt="Project Satu">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">E-Commerce Web Application</h5>
+                        <p class="card-text text-secondary text-sm">Sistem penjualan retail multi-toko terintegrasi gerbang pembayaran otomatis online modern.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 pb-3">
+                        <button class="btn btn-outline-primary btn-sm w-100">Lihat Dokumentasi</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=500&auto=format&fit=crop&q=60" class="card-img-top" alt="Project Dua">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">SaaS Dashboard Analytics</h5>
+                        <p class="card-text text-secondary text-sm">Dasbor pengolah data bisnis perusahaan real-time lengkap dengan visualisasi grafik interaktif.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 pb-3">
+                        <button class="btn btn-outline-primary btn-sm w-100">Lihat Dokumentasi</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=500&auto=format&fit=crop&q=60" class="card-img-top" alt="Project Tiga">
+                    <div class="card-body">
+                        <h5 class="card-title fw-bold">Company Profile Web AI</h5>
+                        <p class="card-text text-secondary text-sm">Landing page agensi digital modern yang dioptimasi penuh menggunakan teknologi kecerdasan buatan.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 pb-3">
+                        <button class="btn btn-outline-primary btn-sm w-100">Lihat Dokumentasi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
